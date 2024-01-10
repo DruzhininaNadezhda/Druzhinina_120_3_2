@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="249.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.druzhinina_120_3_2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+    <Button fx:id="newGame" onAction="#newGameClick" prefHeight="23.0" prefWidth="116.0" text="New Game" />
+   <FlowPane fx:id="game" prefHeight="183.0" prefWidth="197.0">
+      <children>
+         <Button fx:id="one" mnemonicParsing="false" onAction="#oneClick" prefHeight="50.0" prefWidth="50.0" text="1" />
+         <Button fx:id="two" mnemonicParsing="false" onAction="#twoClick" prefHeight="50.0" prefWidth="50.0" text="2" />
+         <Button fx:id="three" mnemonicParsing="false" onAction="#threeClick" prefHeight="50.0" prefWidth="50.0" text="3" />
+         <Button fx:id="four" mnemonicParsing="false" onAction="#fourClick" prefHeight="50.0" prefWidth="50.0" text="4" />
+         <Button fx:id="five" mnemonicParsing="false" onAction="#fiveClick" prefHeight="50.0" prefWidth="50.0" text="5" />
+         <Button fx:id="six" mnemonicParsing="false" onAction="#sixeClick" prefHeight="50.0" prefWidth="50.0" text="6" />
+         <Button fx:id="seven" mnemonicParsing="false" onAction="#sevenClick" prefHeight="50.0" prefWidth="50.0" text="7" />
+         <Button fx:id="eight" mnemonicParsing="false" onAction="#eightClick" prefHeight="50.0" prefWidth="50.0" text="8" />
+         <Button fx:id="nine" mnemonicParsing="false" onAction="#nineClick" prefHeight="50.0" prefWidth="50.0" text="9" />
+         <Button fx:id="ten" mnemonicParsing="false" onAction="#tenClick" prefHeight="50.0" prefWidth="50.0" text="10" />
+         <Button fx:id="eleven" mnemonicParsing="false" onAction="#elevenClick" prefHeight="50.0" prefWidth="50.0" text="11" />
+         <Button fx:id="twelve" mnemonicParsing="false" onAction="#twelveClick" prefHeight="50.0" prefWidth="50.0" text="12" />
+         <Button fx:id="thirteen" mnemonicParsing="false" onAction="#thirteenClick" prefHeight="50.0" prefWidth="50.0" text="13" />
+         <Button fx:id="fourteen" mnemonicParsing="false" onAction="#fourteenClick" prefHeight="50.0" prefWidth="50.0" text="14" />
+         <Button fx:id="fifteen" mnemonicParsing="false" onAction="#fiveteenClick" prefHeight="50.0" prefWidth="50.0" text="15" />
+         <Button fx:id="sixteen" mnemonicParsing="false" onAction="#sixteenClick" prefHeight="50.0" prefWidth="50.0" />
+      </children>
+   </FlowPane>
+</VBox>
